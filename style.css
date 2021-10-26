@@ -7,8 +7,8 @@ header{
   background-color: #0b07fd; 
 }
 input{
-  padding: 7px;
-  width: 250px;
+  padding: 5px;
+  width: 500px;
 }
 .headerleft .lupa{
   margin-left: -80px;
@@ -30,7 +30,7 @@ nav{
   text-align: auto;
   text-decoration: none;
   height: 05px;
-  width: 05px;
+  width: 10px;
 }
 .menu-nav ul li{
   display: inline-block;
@@ -54,6 +54,8 @@ li a:hover{
   align-items: center;   
   gap: 10px;
   color: rgb(255, 255, 255);
+  width: 880px;
+  height: 50px;
 }
  
 .teste {
