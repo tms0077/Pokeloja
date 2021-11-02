@@ -19,25 +19,29 @@ input{
   background-color: #0b07fd;
   justify-content: flex-start;
   color: white;
-  width: 100%
+  width: 100%;
+  height:auto;
     
 
 }
 
-.social12:after{
-  content: '';
-  display: flex;
-  clear: both;
+
+.social12{
+
+  display: block;
+  margin: 10px;
+  direction: ltr;
+ 
 }
 .socialfoot {
   width: 100%;
-  max-width: 150px;
+  max-width: 50px;
   display: block;
   float: left;
   background: rgb(17, 0, 255);
   padding: 1rem;
   margin: .5rem;
-  box-shadow: 0 1px 1px rgba(0,0,0,.2);
+
 }
 
 

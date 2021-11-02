@@ -1,0 +1,22 @@
+{
+  "name": "loja-pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tms0077/Loja-Pokemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tms0077/Loja-Pokemon/issues"
+  },
+  "homepage": "https://github.com/tms0077/Loja-Pokemon#readme",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
