@@ -184,7 +184,7 @@ aside {
 .img-aside {
     display: block;
     position: relative;
-    filter: brightness(50%);
+    filter: brightness(80%);
 }
 
 .aside-podio {
