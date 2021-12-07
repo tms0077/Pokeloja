@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -20,10 +21,10 @@ input {
 nav {
     padding: 0 03%;
     background-color: rgb(255, 255, 255);
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    height: 10px;
 }
 
 .menu-nav ul li a {
@@ -33,10 +34,12 @@ nav {
     text-align: center;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 06px;
+    display: inline-block;
 }
 
 .menu-nav ul li {
-    display: inline-block;
+    display: inline-flex;
 }
 
 li a:hover {
@@ -70,6 +73,10 @@ li a:hover {
     gap: 10px;
 }
 
+.header-left {
+    background-image: url(./img/carrinho\ compra.png);
+}
+
 .header-right {
     display: flex;
     padding: 20px;
@@ -79,18 +86,17 @@ li a:hover {
 
 .header-right a {
     color: rgb(251, 251, 251);
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 
 .cor a {
-    color: white;
+    color: rgb(19, 18, 18);
     text-decoration: none;
 }
 
 main {
     display: flex;
-    background-color: rgb(197, 197, 197);
 }
 
 .background {
@@ -120,8 +126,8 @@ main {
 }
 
 .img-pokemon {
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     margin-bottom: 5px;
 }
 
@@ -135,13 +141,13 @@ main {
 }
 
 .valor {
-    color: green;
+    color: rgb(6, 102, 6);
     font-size: 20px;
     font-weight: bolder;
 }
 
 .button {
-    background-color: #0637da;
+    background-color: #2601f8;
     border-radius: 10px;
     color: white;
     border: none;
@@ -151,7 +157,7 @@ main {
 
 .button:hover {
     transition: linear 0.5s;
-    background-color: green;
+    background-color: rgb(4, 95, 4);
 }
 
 aside {
@@ -243,7 +249,7 @@ aside {
     margin-top: 10px;
     padding: 10px 30px;
     color: #fbfbfb;
-    background-color: #0520bb;
+    background-color: #2601f8;
     border-style: none;
     cursor: pointer;
 }
@@ -268,6 +274,7 @@ aside {
     align-items: center;
     justify-content: space-between;
     padding: 0 08%;
+    text-decoration: none;
 }
 
 .footer-container {
